@@ -1,11 +1,14 @@
 /* stile generale */
   body {
     background-image: url("../img/sfondolegno.jpg");
+    background-size: cover;
   }
 
   * {
     width: 80%;
     margin: auto;
+    padding: 0;
+
   }
 
 /* stile testata */
@@ -92,7 +95,7 @@
 /* stile footer */
   footer {
     width: 100%;
-    background-color: white;
+    background-color: rgb(224, 224, 224);
     height: 150px;
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.36);
