@@ -1,0 +1,94 @@
+/* stile generale */
+  body {
+    background-image: url("../img/sfondolegno.jpg");
+  }
+
+  * {
+    width: 90%;
+    margin: auto;
+  }
+
+/* stile testata */
+  .testata {
+    position: relative;
+    background: rgb(154, 133, 213);
+    box-sizing: border-box;
+    border: 10px solid white;
+    width: 100%;
+    height: 200px;
+  }
+
+  .titolo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:rgb(186, 186, 186) ;
+  }
+
+  .descrizione {
+    position: absolute;
+    left: 50%;
+    bottom: 4%;
+    transform: translate(-50%,0);
+    text-align: center;
+    background-color: rgb(186, 186, 186);
+  }
+
+/* stile barra */
+  .barra {
+    width: 100%;
+    height: 50px;
+    background: rgb(78, 78, 78);
+  }
+
+/* stile blocco principale */
+  .main::after {
+    content: "" ;
+    display: table;
+    clear: both;
+  }
+/* prima colonna */
+  .primac {
+    float: left;
+    background: white;
+    width: 30%;
+    height: 100px;
+  }
+/* seconda colonna */
+  .secondac {
+    float: left;
+    background: white;
+    width: 30%;
+    height: 100px;
+  }
+/* terza colonna */
+  .terzac {
+    float: right;
+    background: white;
+    width: 30%;
+    height: 100px;
+  }
+
+
+
+/* stile footer */
+
+  footer {
+    background-color: white;
+    height: 150px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.36);
+  }
+
+  .madeby {
+    width: 100%;
+    height: 40%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.36);
+  }
+
+  .social {
+    width: 100%;
+    height: 60%;
+  }
