@@ -4,11 +4,15 @@
   }
 
   * {
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
 
 /* stile testata */
+  header {
+    width: 100%;
+  }
+
   .testata {
     position: relative;
     background: rgb(154, 133, 213);
@@ -41,51 +45,66 @@
     width: 100%;
     height: 50px;
     background: rgb(78, 78, 78);
+    margin-bottom: 10px;
   }
 
 /* stile blocco principale */
-  .main::after {
+  .main {
+    width: 100%;
+  }
+
+  .main:after {
     content: "" ;
     display: table;
     clear: both;
   }
+
 /* prima colonna */
   .primac {
     float: left;
     background: white;
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 500px;
   }
+
 /* seconda colonna */
   .secondac {
     float: left;
     background: white;
-    width: 30%;
-    height: 100px;
+    width: 50%;
+    height: 300px;
+    margin: auto 5%;
   }
+
 /* terza colonna */
   .terzac {
     float: right;
     background: white;
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 300px;
+  }
+
+  .terzac::after {
+    content: "" ;
+    display: table;
+    clear: both;
   }
 
 
-
 /* stile footer */
-
   footer {
+    width: 100%;
     background-color: white;
     height: 150px;
     box-sizing: border-box;
     color: rgba(0, 0, 0, 0.36);
+    margin-top: 10px;
   }
 
   .madeby {
     width: 100%;
     height: 40%;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.36);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.58);
   }
 
   .social {
